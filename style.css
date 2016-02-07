@@ -1,0 +1,29 @@
+html{
+    background-color: lightgray;
+}
+body{
+    padding: 3% 0 3% 0;
+    width:60%;
+    margin: 0.25% auto 3% auto;
+    background-color: white;
+    }
+.center{
+    text-align: center;
+}
+section{
+    padding: 2.5% 0 1.7% 10%;
+    font-size: 25px;
+    line-height: 35px;
+}
+hr{
+    width: 85%;
+    color: black;
+}
+p{
+    padding: 1px;
+    margin: 1px;
+}
+
+.marg{
+    margin: 5% 0 0 0;
+}
