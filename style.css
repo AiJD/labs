@@ -1,29 +1,40 @@
+/**all html**/
 html{
-    background-color: lightgray;
-}
-body{
-    padding: 3% 0 3% 0;
-    width:60%;
-    margin: 0.25% auto 3% auto;
-    background-color: white;
+    background-color: #eeeeee;
+    border-bottom: 5px solid black;
+    border-radius: 7px;
     }
+/*content*/
+body{
+    margin: 0.25% auto 3% auto;
+    padding: 3% 0 3% 0;
+    background-color: white;
+    width:60%;
+   }
 .center{
     text-align: center;
-}
+    }
 section{
-    padding: 2.5% 0 1.7% 10%;
-    font-size: 25px;
+    padding: 2.5% 0 1.7% 3%;
+    font: 25px Arial sans-serif;
     line-height: 35px;
-}
-hr{
-    width: 85%;
-    color: black;
+    }
+.border {
+    border-bottom: 1px solid #7a7a7a;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 p{
     padding: 1px;
     margin: 1px;
-}
-
+    }
 .marg{
     margin: 5% 0 0 0;
+    }
+li{
+    margin-left: -2.5%;
 }
+
+.pad{
+    padding-left: 13%;
+    }
