@@ -1,0 +1,54 @@
+table {
+    border: 9px solid white;
+    border-collapse: collapse;
+    width: 500px;
+    height: 540px;
+    margin: auto;
+}
+td, tr{
+    border: 8px solid #212d29;
+    border-collapse: collapse;
+}
+
+.yellow{
+    background: #ffee60;
+}
+.blue{
+    background:#003872;
+}
+.red{
+    background:#ff5c34;
+}
+.black{
+    background: #212d29;
+}
+.c1{
+    width: 20px;
+}
+.el11{
+    width: 50px;
+}
+.el21 {
+    width: 40px;
+    height: 28%;
+}
+.el22{
+     width: 58%;
+     height: 170px;
+ }
+.el33{
+    width: 15.5%;
+}
+.el43{
+    width: 30%;
+    height: 50px;
+}
+.el54{
+    height: 50px;
+}
+.el62{
+    height: 30px;
+}
+.el71{
+    height: 30px;
+}

@@ -1,0 +1,227 @@
+
+body {
+    font-family: Helvetica Neue;
+    margin: 0;
+}
+
+html {
+    background: url('../img/Background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    background-color: #074e8c;
+    height: 30pt;
+}
+
+.header > ul > li > a {
+    color: #9FC9EA;
+    text-decoration: none;
+    display: block;
+    margin-top: 8pt;
+}
+
+.header > ul > li > a:hover {
+    color: white;
+    background-color: #4eabda;
+}
+
+.header > ul > li:hover {
+
+    background-color: #4eabda;
+    height: 30pt;
+}
+
+.header > ul > li {
+    width: 80pt;
+    display: inline-block;
+    float: left;
+    height: 30pt;
+    text-align: center;
+}
+
+.header > ul > li.liWithImage {
+    width: 110pt;
+    border-left: 1px solid #4eabda;
+    padding-left: 10pt;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    float: right;
+    background-color: #074e8c;
+}
+
+.header > ul > li > .whiteMenu {
+    color: white;
+}
+
+.imgMenu {
+    padding-right: 5pt;
+}
+
+.header > ul > .selectedLi {
+    background: linear-gradient(to top, #2e7ac4, #4eacda);
+    width: 150pt;
+    padding-left: 10pt;
+    margin-right: 20pt;
+    padding-right: 10pt;
+}
+
+
+
+
+.header > ul > .selectedLi > a {
+    color: white;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 5%;
+    width: 41%;
+    height: 41%;
+	margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.titleOfText, .bodyText {
+    background-color: rgba(1, 0, 0, 0.631);
+    text-align: center;
+    color: white;
+    font-size: 17pt;
+}
+
+.textBox {
+    text-align: center;
+    color: white;
+    font-size: 17pt;
+}
+
+.titleOfText {
+    margin-bottom: 4px;
+    height: 50px;
+}
+
+.titleOfText > p {
+    padding-top: 8pt;
+}
+
+.blackInput {
+    background-color: black;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-bottom: 1px solid #615A5A;
+}
+
+.bottomText {
+    font-size: 12pt;
+}
+
+.bot {
+    font-size: 10pt;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.create {
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, #4ca9d9, #2f7bc5);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px -2px 1px #4ca9d9;
+    -moz-box-shadow: 0px -2px 1px #4ca9d9;
+    box-shadow: 0px -2px 1px #4ca9d9;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    width: 38%;
+}
+
+.create:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    width: 38%;
+}
+
+#form1 > .textBox > .blackInput:focus {
+    box-shadow: inset -2px 6px 100px 100px #477897, 0px -3px 20px 6px #477897;
+    border: none;
+    outline: none;
+}
+
+.line-separator {
+    display: flex;
+    width: 54%;
+    margin-left: 22.5%;
+}
+
+.line-separator:before, .line-separator:after {
+    color: black;
+    content: '';
+    flex: 1;
+    border-bottom: groove 1px;
+    margin: auto 0.25em;
+    box-shadow: 0 1px;
+
+}
+
+.OU {
+    color: #666666;
+    font-size: 12pt;
+    padding: 4% 0 4% 0;
+}
+
+input[placeholder] {
+    padding-left: 11pt;
+    color:white;
+}
+
+#image-button {
+    height: 35px;
+    color: #fff;
+    padding: 4px 20px 0;
+    margin-top: 20px;
+    left: 22px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #3B5999;
+    border-top: 1px solid;
+    border-top-color: #CEC1C1;
+}
+
+#image-button:before {
+    content: "f";
+    width: 35px;
+    height: 24px;
+    position: absolute;
+    padding-top: 10px;
+    line-height: 20px;
+    top: -1px;
+    margin-left: -54px;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: solid 1px #2E4476;
+    background: #3B5999;
+    border-top: 1px solid;
+    border-top-color: #CEC1C1;
+}
+
+@font-face {
+    font-family: Helvetica Neue;
+    src: url("../fonts/HelveticaNeue.ttf");
+}

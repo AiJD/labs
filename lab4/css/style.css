@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+	
+.clearfix{
+	clear:both;
+}	
+	
+html{
+    background: url("../img/background.png");
+}
+body{
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    font-family: Tahoma-Regular;
+	box-shadow: 0px 0px 11px 3px #000;
+    border-bottom:2px solid black;
+}
+/*header*/
+header{
+    margin:0 3% -0.35% 3%;
+    padding-top: 0.5%;
+    color: #128aa7;
+    font-size: 10.8pt;
+}
+.logo{
+	float:left;
+	margin-bottom:-0.2%;
+
+}
+.contacts{
+    float:right;
+	line-height:1.4;
+}
+.travel{
+    position: absolute;
+    top:15%;
+    left:18%;
+    font-size: 9pt;
+}
+.countries{
+    padding: 3.3% 0 0.2% 0;
+	text-decoration: none;
+    list-style: none;
+	text-align: right;
+	float:right;
+	width: 58%;
+}
+ .icon{
+     display: inline-block;
+     padding-left:2.5%;
+     text-align:center;
+     font-size: 85%;
+ }
+.icon1{
+	display: inline-block;
+    padding-left:1%;
+	font-size: 9pt;
+    text-align:center;
+}
+.icon2{
+    display: inline-block;
+    font-size: 9pt;
+    text-align:center;
+}
+.icon a {
+	color: #128aa7;
+    text-align:center;
+}
+.icon1 a {
+    color: #128aa7;
+}
+.icon2 a {
+    color: #128aa7;
+}
+/*content*/
+
+.photo{
+	width:100%;
+	background-image: url("../img/photo.png");
+	border-top: 0.5px solid #128aa7;
+	border-bottom: 0.5px solid #128aa7;
+}
+/*menu*/
+
+ul.dropdown li {
+    position: relative;
+    padding: 1% 5% 0.5% 0;
+    font-size: 99%;
+}
+ul.dropdown{
+    list-style: none;
+    background: #303030;
+    width: 100%;
+    margin-top: -0.25%;
+    border-bottom: 2px solid black;
+}
+ul.dropdown-inside1,
+ul.dropdown-inside {
+    list-style: none;
+    background: #303030;
+    padding: 1% 5% 0.5% 1%;
+    position: absolute;
+    left: -10000%;
+}
+ul.dropdown li.dropdown-top {
+     display: inline-block;
+     background: #303030;
+}
+ul.dropdown li.dropdown-top1,
+ul.dropdown li.dropdown-top2 a{
+    display: inline-block;
+    padding-left: 4%;
+    background: #303030;
+}
+ul.dropdown li.dropdown-top1 a,
+ul.dropdown li.dropdown-top a{
+    display: inline-block;
+    text-decoration: none;
+    color: #d5d5d5;
+}
+ul.dropdown a.dropdown-top {
+    background: #303030;
+}
+ul.dropdown a.dropdown-top:hover {
+
+}
+ul.dropdown li.dropdown-top:hover .dropdown-inside {
+    display: block;
+    left: 0;
+    padding: 4% 15% 5% 7%;
+    border-top: 2px solid #000;
+    margin-top: 3.1%;
+}
+ul.dropdown li.dropdown-top:hover .dropdown-inside1{
+    display: block;
+    left: 0;
+    padding: 7% 40% 7% 7%;
+    border-top: 2px solid #000;
+    margin-top: 4%;
+}
+ul.dropdown .dropdown-inside1 a{
+    background: #303030;
+    padding: 7% 15% 7% 7%;
+}
+ul.dropdown .dropdown-inside a{
+    background: #303030;
+    padding: 4% 15% 4% 7%;
+}
+ul.dropdown .dropdown-inside1 a:hover{
+    background: #303030;
+    padding: 7% 15% 7% 7%;
+}
+ul.dropdown .dropdown-inside a:hover {
+    background: #303030;
+    padding: 4% 15% 4% 7%;
+}
+ul.dropdown .dropdown-inside .bord{
+    border-bottom: 2px solid black;
+}
+
+/*content*/
+
+.content{
+    overflow: hidden;
+}
+.col1{
+    float:left;
+    padding: 1% 0 100% 0;
+    margin-bottom: -100%;
+    width: 22%;
+    background-color: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    line-height: 1.2;
+}
+.col2{
+    float: left;
+    background-color: #fff;
+    line-height: 1.2;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+.col3{
+    float:right;
+    width: 22%;
+    background-color: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    padding: 0 0 100% 0;
+    margin-bottom: -100%;
+}
+.title{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    color: #424c43;
+    line-height: 1.5;
+}
+.text{
+    font-size: 12pt;
+    color: #424c43;
+    border-bottom: 1px solid #c7cacf;
+    line-height: 1.7;
+    padding-left: 7%;
+}
+.text1{
+    font-size: 12pt;
+    color: #424c43;
+    border-bottom: 1px solid #c7cacf;
+    line-height: 1.7;
+    padding-left: 7%;
+}
+
+.text2{
+    font-size: 12pt;
+    color: #424c43;
+    border-bottom: 1px solid #c7cacf;
+    line-height: 1.7;
+    padding-bottom: 3%;
+    padding-left: 7%;
+}
+.text3{
+    font-size: 12pt;
+    color: #424c43;
+    border-bottom: 1px solid #c7cacf;
+    line-height: 1.7;
+    padding-bottom: 70%;
+    padding-left: 7%;
+}
+.copy{
+    position: absolute;
+    padding: 0.5% 0 0.5% 0;
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+    left:43%;
+}
+
+@font-face {
+    font-family: 'Tahoma-Regular';
+    src: url('../fonts/Tahoma-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
