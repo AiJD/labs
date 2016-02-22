@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     }
-	
 .clearfix{
 	clear:both;
 }	
-	
 html{
     background: url("../img/background.png");
 }
@@ -28,7 +26,6 @@ header{
 .logo{
 	float:left;
 	margin-bottom:-0.2%;
-
 }
 .contacts{
     float:right;
@@ -76,7 +73,6 @@ header{
     color: #128aa7;
 }
 /*content*/
-
 .photo{
 	width:100%;
 	background-image: url("../img/photo.png");
@@ -84,7 +80,6 @@ header{
 	border-bottom: 0.5px solid #128aa7;
 }
 /*menu*/
-
 ul.dropdown li {
     position: relative;
     padding: 1% 5% 0.5% 0;
@@ -160,9 +155,7 @@ ul.dropdown .dropdown-inside a:hover {
 ul.dropdown .dropdown-inside .bord{
     border-bottom: 2px solid black;
 }
-
 /*content*/
-
 .content{
     overflow: hidden;
 }
@@ -213,7 +206,6 @@ ul.dropdown .dropdown-inside .bord{
     line-height: 1.7;
     padding-left: 7%;
 }
-
 .text2{
     font-size: 12pt;
     color: #424c43;
@@ -238,7 +230,6 @@ ul.dropdown .dropdown-inside .bord{
     font-size: 10pt;
     left:43%;
 }
-
 @font-face {
     font-family: 'Tahoma-Regular';
     src: url('../fonts/Tahoma-Regular.ttf') format("truetype");
