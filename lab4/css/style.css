@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    }
+}
 .clearfix{
 	clear:both;
 }	
@@ -109,12 +109,14 @@ ul.dropdown li.dropdown-top2 a{
     display: inline-block;
     padding-left: 4%;
     background: #303030;
+	z-index: 2; 
 }
 ul.dropdown li.dropdown-top1 a,
 ul.dropdown li.dropdown-top a{
     display: inline-block;
     text-decoration: none;
     color: #d5d5d5;
+	z-index: 2; 
 }
 ul.dropdown a.dropdown-top {
     background: #303030;
@@ -128,6 +130,7 @@ ul.dropdown li.dropdown-top:hover .dropdown-inside {
     padding: 4% 15% 5% 7%;
     border-top: 2px solid #000;
     margin-top: 3.1%;
+	z-index: 1; 
 }
 ul.dropdown li.dropdown-top:hover .dropdown-inside1{
     display: block;
@@ -135,6 +138,7 @@ ul.dropdown li.dropdown-top:hover .dropdown-inside1{
     padding: 7% 40% 7% 7%;
     border-top: 2px solid #000;
     margin-top: 4%;
+	z-index: 1; 
 }
 ul.dropdown .dropdown-inside1 a{
     background: #303030;
@@ -154,6 +158,7 @@ ul.dropdown .dropdown-inside a:hover {
 }
 ul.dropdown .dropdown-inside .bord{
     border-bottom: 2px solid black;
+	z-index: 1; 
 }
 /*content*/
 .content{
@@ -230,14 +235,55 @@ ul.dropdown .dropdown-inside .bord{
     font-size: 10pt;
     left:43%;
 }
+/*font*/
 @font-face {
     font-family: 'Tahoma-Regular';
     src: url('../fonts/Tahoma-Regular.ttf') format("truetype");
     font-weight: normal;
     font-style: normal;
 }
-
-
+/*adaptivity*/
+@media(max-width:913px){
+.logo{
+	width: 100px;
+}
+.icon{
+     padding-left:4%;
+     font-size: 70%;
+	 width:10%;
+ }
+.icon1{
+    padding-left:3.5%;
+	font-size: 70%;
+	width:14%;
+}
+.icon2{
+	padding-left:1%;
+    font-size: 70%;
+	width:14%;
+}
+.travel{
+    font-size: 85%;
+}
+.countries{
+	width: 65%;
+}
+.title{
+    font-size: 85%;
+}
+.text,
+.text1,
+.text2,
+.text3{
+    font-size: 70%;
+}
+ul.dropdown li {
+    font-size: 85%;
+}
+.copy{
+    left:38%;
+}
+}
 
 
 
