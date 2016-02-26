@@ -1,11 +1,10 @@
-
-body {
-    font-family: Helvetica Neue;
-    margin: 0;
-}
 html {
     background: url('../img/Background.png') no-repeat center center fixed;
     background-size: cover;
+}
+body {
+    font-family: "Helvetica Neue";
+    margin: 0;
 }
 .header {
     background-color: #074e8c;
@@ -203,6 +202,6 @@ input[placeholder] {
     border-top-color: #CEC1C1;
 }
 @font-face {
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Neue";
     src: url("../fonts/HelveticaNeue.ttf");
 }
