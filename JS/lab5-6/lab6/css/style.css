@@ -1,0 +1,25 @@
+.timer{
+    border: 3px solid blue;
+    text-align:center;
+    font-size:50px;
+    border-radius:6px;
+    color:orange;
+    margin-top:15%;
+    width:50%!important;
+    height:auto;
+}
+.buttons{
+    margin-top:20px;
+}
+.start, .clear{
+    width: 200px;
+    font-size: 40px!important;
+}
+body{
+    background-color: black!important;
+}
+.results{
+    color:grey;
+    font-size:36px;
+    text-align: center;
+}
