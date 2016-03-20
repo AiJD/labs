@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 9-10 JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.selectbox.css">
+    <link rel="stylesheet" href="css/jcarousel.basic.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/jquery.selectbox.js"></script>
+    <script src="js/jquery.checkbox.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<nav>
+    <ul id="ddmenu">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Продукция</a>
+            <ul>
+                <li><a href="#">Логитипы</a></li>
+                <li><a href="#">Шаблоны</a></li>
+                <li><a href="#">Иконки</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Страны</a>
+            <ul>
+                <li><a href="#">Китай</a></li>
+                <li><a href="#">Япония</a></li>
+                <li><a href="#">Канада</a></li>
+            </ul>
+        </li>
+        <li><a href="#">О нас</a>
+        <ul>
+            <li><a href="#">Миссия</a></li>
+            <li><a href="#">Команда</a></li>
+            <li><a href="#">История</a></li>
+        </ul>
+         </li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+<!--carousel-->
+<div class="wrapper">
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul>
+                <li><img src="img/1.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/2.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/3.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/4.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/5.jpg" width="600" height="400" alt=""></li>
+            </ul>
+        </div>
+        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+        <p class="jcarousel-pagination"></p>
+    </div>
+</div>
+<!--select box-->
+<div class="mySelectBox">
+    <select name="country_id" id="country_id" tabindex="1">
+        <option value="">-- Select country --</option>
+        <optgroup label="North America">
+            <option value="1">USA</option>
+            <option value="9">Canada</option>
+        </optgroup>
+        <optgroup label="Europe">
+            <option value="2">France</option>
+            <option value="3">Spain</option>
+            <option value="6">Bulgaria</option>
+            <option value="7" disabled="disabled">Greece</option>
+            <option value="8">Italy</option>
+        </optgroup>
+        <optgroup label="Asia" disabled="disabled">
+            <option value="5">Japan</option>
+            <option value="11">China</option>
+        </optgroup>
+        <option value="4">Brazil</option>
+        <option value="10">South Africa</option>
+    </select>
+</div>
+<!--checkbox-->
+<div class="myCheckbox">
+    <span class="niceCheck">
+        <input type="checkbox" name="ch1"/>
+    </span>
+    <input type="checkbox" id="test-check1"/>
+    <label for="test-check1">Чекбокс с помощью CSS:</label>
+</div>
+
+</body>
+</html>
