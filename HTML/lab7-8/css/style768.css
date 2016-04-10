@@ -71,7 +71,7 @@ footer {
     height: 100px;
     font-size: 16px;
     line-height: 26px;
-    margin: 2px 0 0 13%;
+    margin: 3px 0 0 45px;
 
 }
 .menu__link--page_head {
@@ -84,7 +84,7 @@ footer {
 }
 .slider__img {
     margin-top: -23px;
-    margin-right: 2.8%;
+    margin-right: 17px;
     width: 274px;
     max-width: 47.5%;
 }
@@ -154,13 +154,13 @@ footer {
     margin-right: 1px;
 }
 .article__right--news {
-    margin: 92px 165px 0 0;
-    padding: 91px 0 0 44px;
+    margin: 93px 165px 0 0;
+    padding: 91px 0 0 46px;
 }
 .head4--gray--small {
     font-size: 28px;
     letter-spacing: 0.5px;
-    padding-bottom: 10.4%;
+    padding-bottom: 20px;
 }
 .article__text--block_news--bold {
     height: auto;
@@ -178,7 +178,7 @@ footer {
 }
 .article__link--block_news--small {
     display: block;
-    margin: 0 -138px 0 0;
+    margin: -2px -141px 0 0;
     font-size: 19px;
     letter-spacing: -0.3px;
 }
@@ -191,7 +191,7 @@ footer {
     height: 120px;
 }
 .logos__menu {
-    padding: 25px 0 0 0;
+    padding: 27px 0 0 0;
     width: 100%;
     float: none;
     text-align: center;
@@ -211,17 +211,26 @@ footer {
     padding-left: 15px;
     margin-top: -1px;
 }
-.menu__item--logos:nth-of-type(n+1) {
-    position: static;
-    float: none;
-    display: inline-block;
-    margin: 0 27px;
-}
 .menu__item--logos:nth-of-type(1) {
-    margin-left: 0;
+    margin-left: -154px;
+}
+.menu__item--logos:nth-of-type(2) {
+    margin-left: -174px;
+}
+.menu__item--logos:nth-of-type(3) {
+    right: 259px;
+}
+.menu__item--logos:nth-of-type(4) {
+    top: 26px;
+    left: 297px;
+}
+.menu__item--logos:nth-of-type(5) {
+    top: 26px;
+    left: 403px;
 }
 .menu__item--logos:nth-of-type(6) {
-    margin-right: 0;
+    top: 27px;
+    right: -151px;
 }
 .article__center--comments--small {
     padding-left: 32px;
@@ -239,9 +248,8 @@ footer {
 .head4--comments {
     display: block;
     margin-top: 0px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     letter-spacing: 0;
-
 }
 .article__text--comments {
     height: 170px;
@@ -268,7 +276,7 @@ footer {
 }
 .copyright {
     float: right;
-    padding: 26px 20px 0 0;
+    padding: 28px 18px 0 0;
 }
 .copyright--bold {
     font-weight: 700;

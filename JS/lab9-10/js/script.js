@@ -37,21 +37,18 @@
         $("#country_id").selectbox();
     });
 })(jQuery);
-
+	function mainmenu(){
+		$(" #ddmenu ul ").css({display: "none"}); 
+		$(" #ddmenu li").hover(function(){
+				$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(400);
+				},function(){
+				$(this).find('ul:first').css({visibility: "hidden"});
+				});
+		}
+		
     $(document).ready(function(){
+		mainmenu();
         $('a').on('click', function(e){
             e.preventDefault();
-        });
-
-        $('#ddmenu li').hover(function () {
-            clearTimeout($.data(this,'timer'));
-            $('ul',this).css("background-color","blue");
-            $('ul',this).slideDown(350);
-            }, function () {
-            $.data(this,'timer', setTimeout($.proxy(function() {
-                $('ul',this).css("background-color","yellow");
-                $('ul',this).slideUp(350);
-            }, this), 100));
-        });
-
+        });		
     });

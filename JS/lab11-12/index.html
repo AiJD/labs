@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 11-12 JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/jquery.carousel.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class = "slider">
+	<div class="carousel-controls">
+		<a class="carousel-arrow-left" href="#">Left</a>
+	</div>
+	<div class="carousel-wrapper">
+		<ul class="carousel-list">
+			<li class="carousel-element"><img src="img/1.jpg"><p>Описание 1</p></li>
+			<li class="carousel-element"><img src="img/2.jpg"><p>Описание 2</p></li>
+			<li class="carousel-element"><img src="img/3.jpg"><p>Описание 3</p></li>
+			<li class="carousel-element"><img src="img/4.jpg"><p>Описание 4</p></li>
+			<li class="carousel-element"><img src="img/5.jpg"><p>Описание 5</p></li>
+		</ul>
+	</div>
+	<div class="carousel-controls">
+		<a class="carousel-arrow-right" href="#">Right</a>
+	</div>
+</div>
+<script type="text/template" id="template">
+<div class="login-wrapper">
+    <h2 class="user-name"><%= data.userName %></h2>
+    <img class="user-icon" src="img/<%= data.userIcon %>" >
+    <p><%= data.userPosition %></p>
+    <p class="user-description"><%= data.userDescription %></p>
+    <div class="contacts">
+        <p>My phone number: <%= data.userTel %></p>
+    </div>
+</div>
+</script>
+</body>
+</html>

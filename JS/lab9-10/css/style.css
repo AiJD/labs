@@ -11,22 +11,22 @@ h2,
 h3, 
 h4, 
 h5, 
-h6{
+h6 {
     font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: normal;
     text-rendering: optimizelegibility;
 }
-h1{
+h1 {
     color: #4E443C;
     font-size: 36px;
     font-weight: bold;
 }
-h2, 
-h2 a {
+h2,
+ h2 a {
     color: #F14E32;
 }
-h3, 
+h3,
 h3 a {
     color: #0388A6;
 }
@@ -104,33 +104,34 @@ header,
 hgroup, 
 menu, 
 nav, 
-section {
+section { 
 	display: block; 
 }
-ol,
+ol, 
 ul { 
 	list-style: none; 
 }
-blockquote,
+blockquote, 
 q { 
 	quotes: none; 
 }
-blockquote:before,
-blockquote:after,
+blockquote:before, 
+blockquote:after, 
 q:before, 
-q:after {
-	content: ''; 
-	content: none; }
-strong {
+q:after { 
+	content: '';
+	content: none;
+}
+strong { 
 	font-weight: bold; 
 }
 table { 
 	border-collapse: collapse;
-	border-spacing: 0; 
+	border-spacing: 0;
 }
 img { 
 	border: 0; 
-	max-width: 100%; 
+	max-width: 100%;
 }
 #ddmenu {
     display: block;
@@ -148,12 +149,12 @@ img {
     color: #8aa8bd;
 }
 #ddmenu li { 
-display: block; 
-position: relative;
-float: left; 
-font-size: 1.45em;
-text-shadow: 1px 1px 0 #fff; 
-border-right: 1px solid #dae0e5; 
+	display: block;
+	position: relative;
+	float: left;
+	font-size: 1.45em;
+	text-shadow: 1px 1px 0 #fff;
+	border-right: 1px solid #dae0e5;
 }
 #ddmenu li a {
     display: block;
@@ -170,11 +171,11 @@ border-right: 1px solid #dae0e5;
 }
 #ddmenu li:hover > a { 
 	color: #7180a0; 
-	background: #d9e2ee;
+	background: #d9e2ee; 
 }
 #ddmenu ul {
     position: absolute;
-    top: 79px;
+    top: 75px;
     width: 130px;
     background: #fff;
     display: none;
@@ -192,7 +193,6 @@ border-right: 1px solid #dae0e5;
     font-size: 0.9em;
     text-shadow: 1px 1px 0 #fff;
 }
-
 #ddmenu ul li a {
     display: block;
     width: 100%;
@@ -206,4 +206,15 @@ border-right: 1px solid #dae0e5;
 #ddmenu ul li a:hover {
     background: #e9edf3;
     width:90%;
+}
+#ddmenu li ul ul {
+	left:120px;
+	margin:0px 0 0 10px;
+}
+#ddmenu ul ul{
+	top:auto;
+}
+img{
+	width:600px;
+	height:400px;
 }
