@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 15-16 JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAACKQaiZJrS0bhr9YARgDqUxQBCBLUIYB7IF2WaNrkYqF0tBovNBQFDtM_KNtb3xQxWff2mI5hipc3lg"></script>
+    <script type="text/javascript">
+        google.load("search", "1");
+        function initialize() {
+            var searchControl = new google.search.SearchControl();
+            searchControl.addSearcher(new google.search.WebSearch());
+            searchControl.draw(document.getElementById("searchcontrol"));
+        }
+        google.setOnLoadCallback(initialize);
+    </script>
+</head>
+<body>
+<div class="col-xs-12 center"><img src="img/logo.png"></div>
+<div id="searchcontrol"></div>
+</body>
+</html>
