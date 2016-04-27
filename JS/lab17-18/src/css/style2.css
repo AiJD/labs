@@ -1,0 +1,10 @@
+.rezultSuccess{
+    color:green;
+}
+.rezultWrong{
+    color:red;
+}
+.buttonExit{
+    margin-top: 12%;
+    width: 100px;
+}
