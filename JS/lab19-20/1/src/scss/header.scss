@@ -1,0 +1,183 @@
+﻿
+@import "variables.scss";
+@import "mixins.scss";
+
+.header{
+    background-color:    $backgroundColorHeader;
+    width: 100%;
+}
+
+.header__title{
+    height: 36px;
+    position: relative;
+    overflow: hidden;
+ }
+.title__logo{
+    float: left;
+    height: 100%;
+    width: 36px;
+    background-image: url("../img/home-logo.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: top center;
+}
+.title__text{
+    display: block;
+    margin-left: 6px;
+    float: left;
+    font-family: 'Ubuntu Medium',Arial,sans-serif;
+    font-size: 20px;
+    color: $titleTextFirstColor;
+    width: 160px;
+    text-align:justify;
+
+    span{
+        display: block;
+        font-family: 'Ubuntu Light',Arial,sans-serif;
+        font-size: 10px;
+        letter-spacing: 1.2px;
+        color: $titleTextSecondColor;
+        text-align:justify;
+    }
+}
+.title__navigation{
+    float: right;
+
+    li{
+        display: inline-block;
+        padding: 12px 0;
+
+        a{
+            color: $titleNavigationColor;
+        }
+        a:hover{
+            color: $titleNavigationHoverColor;
+        }   
+    }
+}
+
+.header__navigation{
+    margin-top: 36px;
+    position: relative;
+    overflow: hidden;
+    background-color: $backgroundColorHeaderNavigation;
+
+}
+.header__menu{
+    float:left;
+
+    li{
+        width: $widthHeaderMenuItem;
+        display: inline-block;
+        position: relative;
+        height: $heightHeaderMenuItem;
+        border-right: 1px solid $headerMenuItemBorderColor;
+    }
+    li:active{
+        background-color: $headerMenuItemActiveBGColor;
+    }
+
+    a{
+        text-align: center;
+        cursor: pointer;
+        color: $headerMenuItemColor;
+        @include centerer
+    }
+    a:hover{
+        color: $headerMenuItemHoverColor;
+    }
+ }
+.header__search{
+    float: right;
+    width: $widthHeaderSearch;
+    height: $heightHeaderMenuItem;
+    position: relative;
+
+    .form__group{
+        width: $widthHeaderSearchForm;
+        @include centerer
+    }
+    input{
+        height: $heightHeaderSearchForm;
+        width: $widthHeaderSearchForm;
+        line-height: $heightHeaderMenuItem;
+        left: 5px;
+        right: 5px;
+        top: 5px;
+        bottom: 5px;
+        font-family: 'Arial Regular',Arial, sans-serif;
+        font-size: 12px;
+        color: $headerSearchTextColor;
+        background-color: $headerSearchTextBGColor;
+        padding-left: 2px;
+        border-color: $headerSearchTextBorderColor;
+    }
+    i{
+        right: 0px;
+        color: $headerSearchButtonColor;
+        @include centerer(false,true)
+    }
+}
+
+.header__slider{
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.slider__list {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.slider__item {
+    float: left;
+    z-index: 1;
+    img{
+        width: $widthWrapper;
+        height: $heightSliderItem;
+    }
+}
+.slider__paginator {
+    top: 430px;
+    @include centerer(true,false)
+}
+.paginator__list{
+    display: inline-block;
+}
+.paginator__item{
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    cursor: pointer;
+}
+.paginator__item--active{
+    border: 2px solid white;
+    background-color: black;
+}
+.slider__text{
+    position:absolute;
+    left:  35px;
+    top:   230px;
+    z-index: 10;
+    div{
+        font-family: 'Ubuntu Medium',Arial,sans-serif;
+        font-size: 50px;
+        color: $headerSliderTextColor;
+        background-color: $headerSliderTextBGColor;
+        width: 215px;   
+        line-height: 1.2;
+    }
+    div:first-child{
+        color: $headerSliderTextFirstChildColor;
+    }
+    div:last-child{
+        width: 310px;  
+    }
+    p{
+        margin-left: 30px;
+    }
+}
