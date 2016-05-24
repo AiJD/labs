@@ -1,0 +1,245 @@
+@media (min-width: 480px) {
+.wrapper{
+    width:460px;
+}
+.slider {
+margin-top: 94px;
+height: 241px;
+background: rgba(0, 0, 0, 0.2);
+}
+.page_head {
+    height: 549px;
+}
+.head2--page_head {
+    margin-top: 67px;
+}
+.menu--page_head--dop {
+    top: 135px;
+    margin-left: 24.6%;
+    margin-bottom: 95px;
+    width: 50.3%;
+}
+.menu__item--page_head {
+    height: 40px;
+}
+.menu__item--last {
+    padding-top: 6px;
+}
+.slider__arrow {
+    margin-top: 100px;
+}
+.slider__wrapper--inner {
+    width: 90%;
+}
+.article--slider {
+    float: left;
+    margin-left: 2.3%;
+    padding-top: 96px;
+    width: 44%;
+}
+.head3 {
+    overflow: hidden;
+    height: 24px;
+    letter-spacing: 0.1px;
+    margin-left: -3%;
+}
+.article__center--info {
+    padding-top: 64px;
+    background-position: -376px -80px;
+}
+.block_news {
+    margin: -33px 0 0 0.3%;
+    padding-bottom: 34px;
+}
+}
+.article__left--block_news {
+    width: 440px;
+    overflow-wrap: normal;
+    margin-top: 89px;
+    margin-left: 1.7%;
+    background: url(../img/article.png) 0px 14px no-repeat;
+}
+.menu__slider {
+    position: absolute;
+    margin-top: 22px;
+}
+.article--info {
+    padding-right: 18.8%;
+    margin-left: -2.1%;
+}
+.article__left--info {
+    padding-top: 77px;
+    margin-left: -2.1%;
+    background-position: -376px -67px;
+}
+.article__text--info {
+    width: 354px;
+    overflow-wrap: normal;
+}
+.slider__img {
+    float: right;
+    display: block;
+    margin-top: -14px;
+    margin-right: -0.4%;
+    width: 191px;
+
+}
+.slider__arrow--left {
+    margin-left: 0%;
+}
+.slider__arrow--right {
+    margin-right: 0;
+}
+.article__link {
+    margin: 5.8% -23.7% 0 0;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.head1 {
+    margin-left: -1.8%;
+}
+.head4--gray {
+    display: inline;
+    font-size: 30px;
+}
+.head4--pink {
+    font-size: 30px;
+}
+.article__link--block_news--small{
+    margin: -3px 50px 0 0;
+}
+.article__head {
+    margin: 3% 0 4% 1.2%;
+    padding-top: 4%;
+}
+.menu__item--logos:nth-of-type(n+1) {
+    float: none;
+    display: block;
+    margin-bottom: 26px;
+    margin-right: 55px;
+}
+.menu__item--logos:nth-of-type(1) {
+    position: absolute;
+    left: -4px;
+}
+.menu__item--logos:nth-of-type(2) {
+    position: absolute;
+    left: 78px;
+}
+.menu__item--logos:nth-of-type(3) {
+    position: absolute;
+    left: 238px;
+    top: 40px;
+}
+.menu__item--logos:nth-of-type(4) {
+    position: absolute;
+    top: 129px;
+    left: -71px;
+}
+.menu__item--logos:nth-of-type(5) {
+    position: absolute;
+    top: 88px;
+    left: 109px;
+}
+.menu__item--logos:nth-of-type(6) {
+    position: absolute;
+    top: 88px;
+    left: 205px;
+}
+.article__left--comments {
+    display: none;
+}
+.article__left--comments--small {
+    display: block;
+    padding-top: 76px;
+}
+.article__center--comments {
+    display: none;
+}
+.article__center--comments--small {
+    display: block;
+}
+.head4--comments {
+    display: block;
+    margin: 0 0 2% -0.7%;
+    font-size: 24px;
+}
+.comments {
+    display: block;
+    height: 668px;
+}
+.article--comments {
+    margin: 0 2%;
+    padding-bottom: 53px;
+}
+.menu__news {
+    margin: 59px 0 0 -21px;
+}
+.news__link {
+    margin-bottom: 18px;
+    padding-left: 65px;
+    width: 326px;
+}
+.article__right--news {
+    margin-left: 15.4%;
+}
+.article__text--block_news--bold {
+        width: 155px;
+        height: 24px;
+        letter-spacing: 0.9px;
+}
+.head4--gray--small {
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+}
+.article__text--block_news {
+    overflow: hidden;
+    line-height: 24px;
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-size: 16px;
+    width: 347px;
+    text-align: left;
+    letter-spacing: -0.4px;
+    margin-left: -2px;
+}
+.article__text--block_news--line {
+    width: 82%;
+}
+.logos {
+    height: 232px;
+    margin: 0;
+}
+.logos__menu {
+    padding-top: 37px;
+    width: 100%;
+}
+.article__text--comments {
+    overflow: hidden;
+    height: 97px;
+    width: 438px;
+}
+.copyright {
+    display: block;
+    text-align: center;
+    margin-left: -0.2%;
+    font-size: 11px;
+    padding-bottom: 88px;
+}
+.copyright--bold {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.menu__item--ftr--last {
+    margin-right: 0!important;
+}
+.menu--ftr {
+    display: inline-block;
+    width: 97%;
+    margin: 39px 0 27px 12px;
+}
+.menu__item--ftr {
+    float: left;
+    margin-right: 25px;
+}
