@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>lab work 23-24</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <h1 class="header__title">ToDo List</h1>
+        </div>
+    </header>
+
+    <section class="list">
+        <div class="wrapper">
+            <ul id="list"></ul>
+            <textarea class="list__input" placeholder="Enter your note" autofocus></textarea>
+            <div class="button-wrapper">
+                <img src="img/save.png" class="list__add-button" alt="Сохранить">
+                <img src="img/delete.png" class="list__reset-button" alt="Удалить все">
+            </div>
+        </div>
+    </section>
+
+    <script id="list-template" type="text/template">
+        <% for (var i = 0; i < data.length; i++) { %>
+        <li class="list__elem">
+            <pre class="list__text"><%= data[i] %></pre><div class="list__buttons"><img src="img/extra.png" class="list__remove-item" alt="Удалить"><img src="img/pencil.png" class="list__edit-item" alt="Редактировать"></div>
+        </li>
+        <% };%>
+    </script>
+
+</body>
+</html>
