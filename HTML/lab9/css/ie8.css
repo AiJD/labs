@@ -7,6 +7,9 @@ html, body, div, span, h1, p, a, img, ol, ul, li, form, footer, header, menu, na
 body {
     line-height: 1;
 }
+html{
+	min-width:748px;
+}
 ol, ul {
     list-style: none;
 }
@@ -27,8 +30,7 @@ ol, ul {
 .wrapper {
     margin: 0 auto;
     position: relative;
-    width: 100%;
-    max-width: 960px;
+	width: 960px;
 }
 .wrapper1 {
     margin: 0 auto;
